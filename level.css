@@ -1,0 +1,741 @@
+*{
+	margin:0;
+	font-family:Arial;
+	border:border-box;
+}
+a{
+	font-size:0.95rem;
+	      color: #2162A1;
+	      opacity:0.8;
+	}
+.navbar{
+	height:60px;
+	background-color:#0f1111;
+	color:white;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.nav-logo{
+	height:50px;
+	width:100px;
+	margin-bottom:15px;
+}
+.logo{
+	background-image:url("images/amazonlogo.jpg");
+	background-size:cover;
+	height:50px;
+	width:100px;
+}
+
+.border{
+	border:2px solid transparent;
+}
+
+.border:hover{
+	border:1.5px solid white;
+}
+
+
+/** box2 **/
+
+.add-first{
+	color:#cccccc;
+	font-size:0.85rem;
+	margin-left:20px;
+}
+.add-second{
+	font-size:1rem;
+}
+
+.add-icon{
+	display:flex;
+}
+
+/** box3 **/
+
+.nav-search{
+	display:flex;
+	height:44px;
+	width:800px;
+	background-color:orange;
+    border-radius:4px;
+}
+
+.search-input{
+	width:700px;
+}
+.search-input{
+   border-top-left-radius :4px;
+    border-bottom-left-radius :4px;
+   
+ }
+
+.search-icon{
+	width:30px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:25px;
+	color:bold;
+	color:black;
+	}
+	
+	.border-search{
+	border:2px solid #0f1111;
+	}
+	
+	.border-search:hover{
+	border:2px solid orange;
+	}
+	
+	/** box4 **/
+	
+	.country{
+	display:flex;
+	}
+	
+	.flag{
+	height:20px;
+	width:30px;
+	background-image:url("images/indiaFlag.png");
+	background-size:cover;
+	}
+	
+	.option-en{
+	height:20px;
+	background-color:#0f1111;
+	color:white;
+	font-weight: 1000;
+	border : 1px solid transparent;
+	}
+	
+	/** box4 **/
+	.upper{
+	  font-size :0.75rem;
+	  font-weight:600;
+	  margin-left:3px;
+	}
+	
+	.lower-select{
+	   background-color:#0f1111;
+	   color:white;
+	   font-weight:800;
+	   border:1px solid black;
+	}
+	
+	/**box5 **/
+	
+	.lower{
+	font-size :1rem;
+	  font-weight:700;
+	}
+	
+	/** box6 **/
+	
+	.cart{
+	display:flex;
+	}
+	
+	.cart-icon{
+	   font-size:35px;
+	}
+	.lower-cart{
+	margin-top:20px;
+	font-size:1rem;
+	font-weight:700;
+	}
+	
+	/** Second part **/
+	
+	.panel{
+	  height:40px;
+	  background-color:#222f3d;
+	  
+	  color:white;
+	  display:flex;
+	  align-items:center;
+	}
+	
+	.panel{	  
+	 font-weight:600;
+	}
+	
+	.panel-tags{
+	  display:flex;
+	  width:1400px;	  
+	}
+	
+	.panel-tags p{
+	   margin-left : 20px;
+	   color:#ffffff;
+	}
+	
+	/** Third part **/
+	
+	 .hero-section{
+	 display:flex;
+	 height:350px;
+	 background-image:url("images/amazon-hero.jpg");
+	 background-size: cover;
+	 	justify-content:center;
+	 	align-items:flex-end;
+	}
+	
+	.hero-msg{
+	display:flex;
+	font-size:0.90rem;
+	height:30px;
+	width:80%;
+	background-color:white;
+	color:black;
+	justify-content:center;
+	align-items:center;
+	margin-bottom:35px;
+	}
+	
+	.hero-msg a{
+	   color:#007185;
+	font-size:1rem;
+
+	}
+	
+	/** fourth part **/
+	.shop-section{
+	   background-color: lightgray;
+	   	   height:1900px;
+	   
+	}
+	.first-part{
+	   background-color: lightgray;
+	   display:flex;
+	   justify-content : space-evenly;
+	}
+	
+	/** box1 **/
+	.box1{
+	   height:420px;
+	   width:370px;
+	   background-color:white;
+	   margin-top:15px;	   
+	   border:8px solid white;
+	}
+	.box1 p{
+	    font-size:22px;
+	    font-weight:600;
+	}
+	.box-anchor{
+	   margin-top:20px;
+	   font-color:black;
+	   font-weight:600;
+	}
+	
+	.box1-images{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	}
+	.box1-1{
+	   width:250px;
+	   height:300px;
+	  background-image:url("images/appliances-fridge.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	/** box2 **/
+	.box2{
+	   height:420px;
+	   width:370px;
+	   background-color:white;
+	   margin-top:15px;
+	   border:8px solid white;
+	   
+	}
+	.box2 p{
+	    font-size:22px;
+	    font-weight:bold;
+	}
+	.box-anchor{
+	   margin-top:20px;
+	   font-weight:600;
+	}
+	
+	.box2-images{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	}
+	.box2-2{
+	   width:250px;
+	   height:300px;
+	  background-image:url("images/home-decor.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+		/** box3 **/
+	.box3{
+	   height:420px;
+	   width:370px;
+	   background-color:white;
+	   margin-top:15px;	   
+	   	   border:8px solid white;
+	   
+	}
+	.box3 p{
+	    font-size:22px;
+	    font-weight:600;
+	}
+	.box-anchor{
+	   margin-top:20px;
+	   font-weight:600;
+	   margin-left:10px;
+	}
+	
+	.box3-images{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	}
+	.box3-3{
+	   width:250px;
+	   height:300px;
+	  background-image:url("images/home-essentials.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	/** box4 **/
+	.box4{
+	   height:420px;
+	   width:370px;
+	   background-color:white;
+	   margin-top:15px;	   
+	   border:8px solid white;
+	}
+	.box4 p{
+	    font-size:22px;
+	    font-weight:600;
+	}
+	.box-anchor{
+	   margin-top:20px;
+	   font-weight:600;
+	   margin-left:10px;
+	}
+	
+	.box4-images{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	}
+	.box4-4{
+	   width:250px;
+	   height:300px;
+	  background-image:url("images/headphones.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	
+	/** fifth part **/
+	
+	.second-part{
+	display:flex;
+	justify-content:center;
+	margin-top :30px;
+	margin-left:28px;
+	height:285px;
+	width:1625px;
+	background-color:white;
+	}
+	
+	.inside-second-part{
+	font-size:20px;
+	font-weight:bold;
+	  margin-top:10px;
+	   height:270px;
+	   width:1600px;
+	   ;
+	}
+	.second-part-images{
+	   height:250px;
+	  display:flex;
+	  justify-content:space-evenly;
+	  align-items:center;
+	}
+	.vehicle1{
+	   height:200px;
+	   width:300px;
+	   background-image:url("images/bike1.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	.vehicle2{
+	   height:200px;
+	   width:300px;
+	   background-image:url("images/bike2.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	.vehicle3{
+	   height:200px;
+	   width:300px;
+	   background-image:url("images/bike3.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	.vehicle4{
+	   height:200px;
+	   width:300px;
+	   background-image:url("images/bike4.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	/**sixth**/
+	
+	.first-part-2{
+	   display:flex;
+	   justify-content : space-evenly;
+	}
+	
+	/** box5 **/
+	.box5{
+	   height:420px;
+	   width:370px;
+	   background-color:white;
+	   margin-top:15px;	   
+	   border:8px solid white;
+	}
+	.box5 p{
+	    font-size:22px;
+	    font-weight:600;
+	}
+	.box-anchor{
+	   margin-top:20px;
+	   font-weight:600;
+	}
+	
+	.box5-images{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	}
+	.box5-5{
+	   width:250px;
+	   height:300px;
+	  background-image:url("images/cookware.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	/** box6 **/
+	.box6{
+	   height:420px;
+	   width:370px;
+	   background-color:white;
+	   margin-top:15px;	   
+	   border:8px solid white;
+	}
+	.box6 p{
+	    font-size:22px;
+	    font-weight:600;
+	}
+	.box-anchor{
+	   margin-top:20px;
+	   font-weight:600;
+	}
+	
+	.box6-images{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	}
+	.box6-6{
+	   width:250px;
+	   height:300px;
+	  background-image:url("images/kitchen-must.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	/** box7 **/
+	.box7{
+	   height:420px;
+	   width:370px;
+	   background-color:white;
+	   margin-top:15px;	   
+	   border:8px solid white;
+	}
+	.box7 p{
+	    font-size:22px;
+	    font-weight:600;
+	}
+	.box-anchor{
+	   margin-top:20px;
+	   font-weight:600;
+	}
+	
+	.box7-images{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	}
+	.box7-7{
+	   width:250px;
+	   height:300px;
+	  background-image:url("images/trending-decor.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	/** box8 **/
+	.box8{
+	   height:420px;
+	   width:370px;
+	   background-color:white;
+	   margin-top:15px;	   
+	   border:8px solid white;
+	}
+	.box8 p{
+	    font-size:22px;
+	    font-weight:600;
+	}
+	.box-anchor{
+	   margin-top:20px;
+	   font-weight:600;
+	}
+	
+	.box8-images{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	}
+	.box8-8{
+	   width:250px;
+	   height:300px;
+	  background-image:url("images/best-seller.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	/** eight part **/
+	
+	.smallbusiness1{
+	   height:200px;
+	   width:300px;
+	   background-image:url("images/smallbusiness-chair.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	.smallbusiness2{
+	   height:200px;
+	   width:300px;
+	   background-image:url("images/smallbusiness-decor.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	.smallbusiness3{
+	   height:200px;
+	   width:300px;
+	   background-image:url("images/smallbusiness-choppindboard.jpg");
+	   background-size:cover;
+	   background-position:center;
+	   	}
+	
+	.smallbusiness4{
+	   height:200px;
+	   width:300px;
+	   background-image:url("images/smallbusiness-bed.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	.smallbusiness5{
+	   height:200px;
+	   width:300px;
+	   background-image:url("images/smallbusiness-wall.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	/** nine part **/
+	
+	.cookware1{
+	   height:200px;
+	   width:200px;
+	   background-image:url("images/cookware-kadai.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	.cookware2{
+	   height:200px;
+	   width:200px;
+	   background-image:url("images/cookware-knife.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	.cookware3{
+	   height:200px;
+	   width:200px;
+	   background-image:url("images/cookware-tiffin.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	.cookware4{
+	   height:200px;
+	   width:200px;
+	   background-image:url("images/cookware-mug.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	.cookware5{
+	   height:200px;
+	   width:200px;
+	   background-image:url("images/cookware-tape.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	.cookware6{
+	   height:200px;
+	   width:200px;
+	   background-image:url("images/cookware-tiffinBox.jpg");
+	   background-size:cover;
+	   background-position:center;
+	}
+	
+	
+	/** footer **/
+	
+	.footer-first{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	   height : 50px;
+	  background-color:#2f4155;
+	}
+	
+	.text{
+	   font-size:15px;
+	   color:white;
+	   font-weight:bold;
+	}
+	
+	.footer-second{
+	   display:flex;
+	   justify-content:space-evenly;
+	   height:400px;
+	   background-color:#232f3E;
+	}
+	
+	/** message 1 **/
+	
+	.message-1 ul{
+	margin-left:-33px;
+		margin-top :10px;
+    list-style-type: none;
+	 }
+	.message-1 p{
+	  margin-top:50px;
+	   font-size:20px;
+	   font-weight:bold;
+	}
+	.message-1{
+	   color:white;
+	}
+	
+	/** message 2 **/
+	
+	.message-2 ul{
+	margin-left:-33px;
+		margin-top :10px;
+    list-style-type: none;
+	 }
+	.message-2 p{
+	  margin-top:50px;
+	   font-size:20px;
+	   font-weight:bold;
+	}
+	.message-2{
+	   color:white;
+	}
+	
+	/** message 3 **/
+	
+	.message-3 ul{
+	margin-left:-33px;
+	margin-top :10px;
+    list-style-type: none;
+	 }
+	.message-3 p{
+	  margin-top:50px;
+	   font-size:20px;
+	   font-weight:bold;
+	}
+	.message-3{
+	   color:white;
+	}
+	
+	/** message 4 **/
+	
+	.message-4 ul{
+	margin-left:-33px;
+    list-style-type: none;
+	 }
+	.message-4 p{
+	  margin-top:50px;
+	   font-size:20px;
+	   font-weight:bold;
+	}
+	.message-4{
+	   color:white;
+	}
+	
+	li{
+	opacity:0.8;
+	margin-top :9px;
+	}
+	
+	.footer-third{
+	border-top : 0.05px solid white;
+	display:flex;
+	   justify-content:center;
+	   align-items:center;
+	   height:100px;
+	   background-color:#232f3E;
+	}
+	
+	.logo2{
+	background-image:url("images/amazon-logo.png");
+	background-size:cover;
+	height:100px;
+	width:150px;
+}
+
+
+/** footer last **/
+
+.footer-last{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color :white;
+	height:70px;
+	background-color :#131A22;
+}
+.footer-last p{
+	opacity:0.8;
+}
+#lastLine{
+   margin-left :40px;
+}
